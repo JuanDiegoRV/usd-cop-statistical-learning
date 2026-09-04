@@ -1,6 +1,28 @@
+# Entornos virtuales
 .venv/
 venv/
+
+# Python
 __pycache__/
-.ipynb_checkpoints/
-.env
 *.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Variables de entorno
+.env
+.env.*
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.log
+*.tmp

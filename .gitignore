@@ -1,6 +1,7 @@
 # Entornos virtuales
 .venv/
 venv/
+.python-version
 
 # Python
 __pycache__/
@@ -26,3 +27,8 @@ Thumbs.db
 # Archivos temporales
 *.log
 *.tmp
+*.bak
+*.swp
+
+# Salidas locales de herramientas de análisis
+graphify-out/
